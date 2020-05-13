@@ -1,3 +1,5 @@
+//Combination use of .Length extension, assignment declaration, and logical XOR
+
 public class Solution {
     public int MissingNumber(int[] nums) {
         
