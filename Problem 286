@@ -1,0 +1,9 @@
+public class Solution {
+    public int MissingNumber(int[] nums) {
+        
+        int missNum = nums.Length;
+        for(int i = 0; i < nums.Length; i++)
+            missNum ^= i ^ nums[i];
+        return missNum;
+    }
+}
